@@ -1,0 +1,49 @@
+# === Dependencies ===
+node_modules/
+.pnp
+.pnp.js
+
+# === Build output ===
+dist/
+build/
+*.egg-info/
+
+# === Environment / Secrets ===
+.env
+.env.local
+.env.*.local
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.whl
+venv/
+.venv/
+
+# === Database ===
+*.db
+*.sqlite3
+
+# === Vector store ===
+chroma_data/
+
+# === Logs ===
+*.log
+npm-debug.log*
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Misc ===
+*.bak
+*.tmp
